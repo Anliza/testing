@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                 git url: 'https://github.com/Anliza/Try-Test', branch: 'main'
+                 git url: 'https://github.com/Anliza/testing', branch: 'main'
             }
         }
 
